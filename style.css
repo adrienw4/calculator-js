@@ -4,36 +4,60 @@
     box-sizing: border-box;
 }
 body{
-    
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blue;
+    align-items: flex-end;
+   
 }
 .calculatrice{
-    background-color: black;
-    border: 2px solid red;
-    display: flex  ;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   padding: 12px;
+   border: 5px solid rgb(10, 10, 10);
+   border-radius: 10px;
+ 
 }
 .ecran{
-    width: 100%;
-    height: 100px;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 10px;
-    border-radius: 5px;
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 5px;
-    font-size: 25px;
+  
+   justify-content: flex-end;
+   align-items: flex-end;
+   padding: 10px;
+   font-size: 25px;
+   border: 5px solid black;
+   
+
 }
 .touches{
     display: grid;
     grid-template-columns: repeat(4,50px);
     grid-template-rows: repeat(5,50px);
+    grid-gap: 5px;
+    margin-top: 5px;
+    font-size: 85px;
+    
+
+}
+#result{
+height: 35px;
+width: 215px;
+font-size: 20px;
+padding: 5px;
+background-color: rgb(255, 255, 255);
+background-color: rgb(7, 245, 7);
+
+
+}
+.touches input{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+
+}
+.touches input:hover{
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
 }
