@@ -1,2 +1,2 @@
-const touches = document.querySelectorAll('')
+const touches = document.querySelectorAll('.button')
 console.log(touches);
