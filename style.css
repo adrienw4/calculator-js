@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 body{
+    max-width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: flex-end;
+    align-content: center;
+    text-align: center;
    
 }
 .calculatrice{
@@ -16,6 +19,7 @@ body{
    padding: 12px;
    border: 5px solid rgb(10, 10, 10);
    border-radius: 10px;
+  
  
 }
 .ecran{
@@ -27,6 +31,7 @@ body{
    padding: 10px;
    font-size: 25px;
    border: 5px solid black;
+   
    
 
 }
@@ -41,12 +46,14 @@ body{
 
 }
 #result{
-height: 35px;
 width: 215px;
-font-size: 20px;
+font-size: 25px;
 padding: 5px;
 background-color: rgb(255, 255, 255);
 background-color: rgb(7, 245, 7);
+height: 60px;
+
+
 
 
 }
@@ -55,9 +62,13 @@ background-color: rgb(7, 245, 7);
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(255, 255, 255);
-
+    
 }
 .touches input:hover{
-    font-size: 40px;
-    background-color: rgb(255, 255, 255);
+    font-size: 45px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#resulta{
+    width: 105px;
 }
