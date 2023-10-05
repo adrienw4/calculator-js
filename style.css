@@ -13,7 +13,7 @@ body{
     text-align: center;
    
 }
-.calculatrice{
+.calculator{
     background-color: rgb(255, 255, 255);
     display: flex;
    padding: 12px;
@@ -22,7 +22,7 @@ body{
   
  
 }
-.ecran{
+.screen{
     background-color: rgb(255, 255, 255);
     margin-bottom: 10px;
   
@@ -35,14 +35,20 @@ body{
    
 
 }
-.touches{
+.buttons{
     display: grid;
     grid-template-columns: repeat(4,50px);
     grid-template-rows: repeat(5,50px);
     grid-gap: 5px;
     margin-top: 5px;
     font-size: 85px;
+    border-radius: 25px;
     
+
+}
+button:active {
+    background-color: black;
+    color: rgb(255, 255, 255);
 
 }
 #result{
@@ -57,14 +63,14 @@ height: 60px;
 
 
 }
-.touches input{
+.buttons input{
     font-size: 30px;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(255, 255, 255);
     
 }
-.touches input:hover{
+.buttons input:hover{
     font-size: 45px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
